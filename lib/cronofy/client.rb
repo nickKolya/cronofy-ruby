@@ -2,6 +2,7 @@ module Cronofy
   # Public: Primary class for interacting with the Cronofy API.
   class Client
     include TimeEncoding
+    include ConferencingServices
 
     # Public: The scope to request if none is explicitly specified by the
     # caller.
